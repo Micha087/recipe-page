@@ -35,7 +35,7 @@ i learned more about pseudo classes and elements
 
 ### Continued development
 
-still need alot practice in everything
+still need alot of practice in everything
 
 ## Author
 
