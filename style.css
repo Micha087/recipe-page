@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    border-radius: 1rem;
+}
+.header-container img{
+    display: block;
+    max-width: 100%;
+}
+.header-container h1{
+    font-family: 'Young serif', Helvetica, sans-serif;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px 30px 0px;
+}
+.header-container p{
+    margin: 10px 30px 0px;
+}
+.sections{
+    margin: 30px 30px 0px;
+}
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1rem;
+    padding: 15px;
+}
+.preparation-time h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+    padding: 8px;
+}
+.preparation-time ul{
+    margin-left: 20px;
+    
+}
+.preparation-time li{
+    padding-left: 15px;
+    margin: 10px;
+}
+.preparation-time li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.preparation-time b{
+    color: hsl(30, 10%, 34%);
+}
+.ingredients h2{
+    font-family: 'Young serif';
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding: 20px 0px 5px;
+}
+.ingredients ul{
+    margin-left: 12px;
+}
+.ingredients li{
+    padding-left: 15px;
+    margin: 10px;
+}
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.instructions h2{
+    font-family: 'Young serif', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding: 0px 0px 5px;
+}
+.instructions ol{
+    margin-left: 12px;
+}
+.instructions li{
+    padding-left: 15px;
+    margin: 10px;
+}
+.instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+.instructions b{
+    color: hsl(30, 10%, 34%);
+}
+.hr-1and2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: hsl(30, 18%, 87%);
+}
+.nutrition{
+    margin-bottom: 30px;
+}
+.nutrition h2{
+    font-family: 'Young serif', Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding: 0px 0px 5px;
+}
+.nutrition p{
+    padding: 10px 0px 12px;
+}
+.nutrients{
+    margin-left: 20px;
+}
+.nutrients-numbers{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+    
+    
+    
