@@ -1,38 +1,37 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding:0;
-    box-sizing: border-box;
 }
 body{
+    align-items: center;
     background-color: hsl(30, 54%, 90%);
-    font-family: 'Outfit', Helvetica, sans-serif;
-    font-size: 16px;
     display: flex;
     flex-direction: column;
+    font-family: 'Outfit', Helvetica, sans-serif;
+    font-size: 16px;
     justify-content: center;
-    align-items: center;
 }
 .container{
     background-color: hsl(0, 0%, 100%);
-    max-width: 700px;
     border-radius: 1rem;
-    margin: 50px 0px 50px;
+    max-width: 700px;
 }
 .header-container img{
+    border-radius: 3rem;
     display: block;
     max-width: 100%;
     padding: 30px 30px 30px;
-    border-radius: 3rem;
 }
 .header-container h1{
-    font-family: 'Young serif', Helvetica, sans-serif;
     color: hsl(24, 5%, 18%);
-    margin-bottom: 10px;
+    font-family: 'Young serif', Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 400;
-    margin: 0px 30px 0px;
+    margin: 0px 30px 10px;
 }
 .header-container p{
+    color: hsl(30, 10%, 34%);
     margin: 10px 30px 0px;
 }
 .sections{
@@ -49,12 +48,13 @@ body{
     padding: 8px;
 }
 .preparation-time ul{
+    color: hsl(30, 10%, 34%);
     margin-left: 20px;
     
 }
 .preparation-time li{
-    padding-left: 15px;
     margin: 10px;
+    padding-left: 15px;
 }
 .preparation-time li::marker{
     color: hsl(332, 51%, 32%);
@@ -67,39 +67,41 @@ body{
     padding: 0px 0px 20px;
 }
 .ingredients h2{
+    color: hsl(14, 45%, 36%);
     font-family: 'Young serif';
     font-size: 25px;
     font-weight: 400;
-    color: hsl(14, 45%, 36%);
     padding: 20px 0px 5px;
 }
 .ingredients ul{
+    color: hsl(30, 10%, 34%);
     margin-left: 12px;
 }
 .ingredients li{
-    padding-left: 15px;
     margin: 10px;
+    padding-left: 15px;
 }
 .ingredients li::marker{
     color: hsl(14, 45%, 36%);
 }
 .instructions{
-    padding: 20px 0px 20px;
     border-bottom: solid 1px hsl(30, 18%, 87%);
+    padding: 20px 0px 20px;
 }
 .instructions h2{
+    color: hsl(14, 45%, 36%);
     font-family: 'Young serif', Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 400;
-    color: hsl(14, 45%, 36%);
     padding: 0px 0px 5px;
 }
 .instructions ol{
+    color: hsl(30, 10%, 34%);
     margin-left: 12px;
 }
 .instructions li{
-    padding-left: 15px;
     margin: 10px;
+    padding-left: 15px;
 }
 .instructions li::marker{
     color: hsl(14, 45%, 36%);
@@ -109,17 +111,18 @@ body{
     color: hsl(30, 10%, 34%);
 }
 .nutrition{
-    padding: 20px 0px 0px;
     margin-bottom: 30px;
+    padding: 20px 0px 0px;
 }
 .nutrition h2{
+    color: hsl(14, 45%, 36%);
     font-family: 'Young serif', Helvetica, sans-serif;
     font-size: 25px;
     font-weight: 400;
-    color: hsl(14, 45%, 36%);
     padding: 0px 0px 5px;
 }
 .nutrition p{
+    color: hsl(30, 10%, 34%);
     padding: 10px 0px 12px;
 }
 .nutrition-table{
@@ -133,14 +136,15 @@ body{
     border-bottom: none;
 }
 .nutrition-table td:first-child{
+    color: hsl(30, 10%, 34%);
     padding-left: 30px;
 }
 
 .nutrition-numbers{
-    position: absolute;
-    left: 50%;
-    color: hsl(332, 51%, 32%);
+    color: hsl(14, 45%, 36%);
     font-weight: 700;
+    left: 50%;
+    position: absolute;
 }
 .attribution { 
     font-size: 11px; 
@@ -151,19 +155,19 @@ body{
 }
 @media (max-width: 700px){
     .container{
-        margin: 0;
         border-radius: 0;
+        margin: 0;
     }
 }
 @media (max-width: 481px){
     .container{
-        margin: 0;
         border-radius: 0;
+        margin: 0;
     }
     .header-container h1{
-        padding: 0;
         font-size: 35px;
         margin: 20px 30px 0px;
+        padding: 0;
     }
     .header-container img{
         padding: 0;
