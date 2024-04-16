@@ -23,27 +23,27 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-.container {
+.recipe-page {
   background-color: var(--White);
   border-radius: 1rem;
   margin: 100px;
   max-width: 700px;
 }
-.header-container img {
+.recipe-page img {
   border-radius: 3rem;
   display: block;
   margin: auto;
   max-width: 100%;
   padding: 30px;
 }
-.header-container h1 {
+.recipe-page h1 {
   color: var(--Dark-Charcoal);
   font-family: "Young serif", Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 400;
   margin: 0px 30px 10px;
 }
-.header-container p {
+.recipe-page p {
   color: var(--Wenge-Brown);
   margin: 10px 30px 0px;
 }
@@ -139,24 +139,24 @@ body {
 }
 .nutrition-table {
   width: 100%;
+  border-collapse: collapse;
 }
-.nutrition-table td {
+.nutrition-table tr {
   border-bottom: solid 1px var(--Light-Grey);
-  padding: 10px 10px 15px;
 }
-.nutrition-table tr:last-child td {
+.nutrition-table tr:last-child {
   border-bottom: none;
+}
+.nutrition-table td{
+  padding: 15px;
 }
 .nutrition-table td:first-child {
   color: var(--Wenge-Brown);
-  padding-left: 30px;
+  padding-left: 60px;
 }
-
 .nutrition-numbers {
   color: var(--Nutmeg);
   font-weight: 700;
-  left: 50%;
-  position: absolute;
 }
 .attribution {
   font-size: 11px;
